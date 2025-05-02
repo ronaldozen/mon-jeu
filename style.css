@@ -1,0 +1,29 @@
+
+
+    body {
+      margin: 0;
+      overflow: hidden;
+      background-color: black;
+    }
+    canvas {
+      display: block;
+    }
+    .score, .timer {
+      position: fixed;
+      top: 10px;
+      font-size: 24px;
+      color: white;
+    }
+    .score { left: 10px; }
+    .timer { right: 10px; }
+    .game-over {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 50px;
+      color: red;
+      display: none;
+    }
+    
+    
